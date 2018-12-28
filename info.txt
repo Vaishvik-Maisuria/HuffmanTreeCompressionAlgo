@@ -1,0 +1,9 @@
+
+In this Project we have got all the given doctoring test to work. Also, we got most of the functions working when testing with test_huffman_properties.py. But, for some of the cases the functions avg_length, generate_compressed, and generate_uncompressed fail. 
+
+we tried compressing the the files provided and were able to receive a compressed file in great time of about 4 seconds.
+
+How huffman_tree works:
+
+the huffman tree takes in a frequency by the parameter free-dict and using this parameter
+first we make a list which holds the tuple with info from the parameter and then i sort the list so that then i take the last items and we make a tree of last two items of the list and then we continue making the tree and then when you get two trees you combine the tree so that the last item of the list gets add to the tree so that it has the least amount of code representation length. so the tree is being build so that it gets populated from the left side
